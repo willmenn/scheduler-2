@@ -1,0 +1,93 @@
+{
+  "persons": [
+    {
+      "name": "William",
+      "id": 1,
+      "hard_constrains": {
+        "PERSON": [
+          2
+        ],
+        "PLACE": [
+          1
+        ],
+        "DAY": [
+          2,
+          3
+        ],
+        "DAY_SHIFT": [
+          1,
+          2
+        ]
+      },
+      "soft_constrains": {
+        "PERSON": [
+          3
+        ],
+        "PLACE": [
+          2
+        ]
+      }
+    },
+    {
+      "name": "Ruth",
+      "id": 2,
+      "hard_constrains": {
+        "PERSON": [
+          1
+        ],
+        "PLACE": [
+          2
+        ],
+        "DAY": [
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "name": "William",
+      "id": 1,
+      "hard_constrains": {
+        "PLACE": [
+          1
+        ],
+        "DAY_SHIFT": [
+          1,
+          2
+        ]
+      },
+      "soft_constrains": {
+        "PERSON": [
+          1
+        ],
+        "PLACE": [
+          2
+        ]
+      }
+    }
+  ],
+  "places": [
+    {
+      "name": "Plantao 1",
+      "id": 1,
+      "spots": {
+        "1": {
+          "1": 1,
+          "2": 2,
+          "3": 1
+        }
+      }
+    },
+    {
+      "name": "Plantao 2",
+      "id": 2,
+      "spots": {
+        "2": {
+          "1": 1,
+          "2": 2,
+          "3": 1
+        }
+      }
+    }
+  ]
+}
