@@ -1,4 +1,4 @@
-package io.scheduler;
+package io.scheduler.domain;
 
 import com.fasterxml.jackson.annotation.JsonUnwrapped;
 

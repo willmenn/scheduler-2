@@ -1,5 +1,6 @@
 package io.scheduler;
 
+import io.scheduler.domain.Schema;
 import io.scheduler.parser.Parser;
 
 public class Main {
