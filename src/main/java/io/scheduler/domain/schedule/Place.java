@@ -5,5 +5,6 @@ import java.util.UUID;
 
 public class Place {
     private UUID uuid;
+    private String name;
     private List<Day> days;
 }
